@@ -1,6 +1,15 @@
-./env
+# Virtual Environment (Python libraries)
+.venv/
+venv/
+env/
+
+# Environment Variables (API Keys - ඉතා වැදගත්!)
 .env
-.venv
-./venv
-./.env
-./.venv
+
+# Python Cache (මේවා වැඩකට නැති junk files)
+__pycache__/
+*.py[cod]
+
+# OS related files
+.DS_Store
+Thumbs.db
